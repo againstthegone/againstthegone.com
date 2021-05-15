@@ -1,16 +1,39 @@
+@font-face {
+  font-family: "Lovelo-Black";
+  src: url("/fonts/Lovelo/Lovelo-Black.woff2") format("woff2"),
+      url("/fonts/Lovelo/Lovelo-Black.woff") format("woff"),
+      url("/fonts/Lovelo/Lovelo-Black.eot") format("embedded-opentype");
+}
+
+@font-face {
+font-family: "Lovelo-Line";
+src: url("/fonts/Lovelo/Lovelo-LineLight.woff2") format("woff2"),
+    url("/fonts/Lovelo/Lovelo-LineLight.woff") format("woff"),
+    url("/fonts/Lovelo/Lovelo-LineLight.eot") format("embedded-opentype");
+font-weight: 400;
+}
+
+@font-face {
+font-family: "Lovelo-Line";
+src: url("/fonts/Lovelo/Lovelo-LineBold.woff2") format("woff2"),
+    url("/fonts/Lovelo/Lovelo-LineBold.woff") format("woff"),
+    url("/fonts/Lovelo/Lovelo-LineBold.eot") format("embedded-opentype");
+font-weight: 500;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
